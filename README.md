@@ -6,6 +6,18 @@
 
 ---
 
+## Table of Contents
+- [Executive Summary](#executive-summary)
+- [Business Context](#business-context)
+- [Business Questions Answered](#business-questions-answered)
+- [Methodology](#methodology)
+- [Skills & Tools Demonstrated](#skills--tools-demonstrated)
+- [Analytical Architecture & DAX Highlights](#analytical-architecture--dax-highlights)
+- [Results & Executive Insights](#results--executive-insights)
+- [Next Steps & Future Enhancements](#next-steps--future-enhancements)
+
+---
+
 ## Executive Summary  
 
 ### The Company & Business Problem
