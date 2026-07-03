@@ -5,6 +5,11 @@
 **Tools Used:** Power BI Desktop, DAX (Data Analysis Expressions), Power Query  
 
 ---
+![Dashboard Demo](images/dashboard-walkthrough.gif)
+
+*If the GIF takes time to load, [click here to view it directly](images/dashboard-walkthrough.gif)*  
+
+---
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
@@ -195,14 +200,26 @@ A comprehensive analysis of FloraGlobal’s 2024 active performance reveals a cr
 * **The Late-Quarter Performance Shift:** The business experienced two starkly contrasting phases across the 4-month reporting window:
   * **Early Q1 Growth Surge:** The year started with strong momentum. February achieved a massive performance expansion, pushing monthly volume up by +8.2K units and expanding Gross Profit by +$117K over the prior year's baseline.
   * **March & April Volatility:** In March, the momentum broke completely, closing out Q1 with a monthly Gross Profit plunge of -$96K on a volume drop of -11.6K units. April compounded the issue to start the next period, dropping another -$90K in profit and bottoming out at just 18.20K units shipped (against a historical parallel of 27.62K units).
+ 
+    <p float="left">
+      <img src="images/gp_ytd_vs_pytd.png" width="40%" height="25%" />
+      <img src="images/quantity_ytd_vs_pytd.png" width="40%" height="25%" />
+    </p>
 
 ### 2. Deep-Dive: Monthly Variance & Geographic Hotspots
 
 By leveraging the dashboard's cross-filtering capabilities, we can move past high-level monthly trends and isolate the exact territorial distribution channels responsible for our sharpest commercial erosions:
 
-* **The March Euro-Asian Bottleneck:** The severe global Gross Profit drop seen in March (-$96K) was driven almost entirely by synchronized margin collapses across Europe and Asia. **Poland** represented the most severe localized drag with a **-$29.24K** profit contraction, followed closely by intensive margin erosion in **Germany (-$24.78K)**, **Portugal (-$24.65K)**, and **China (-$23.76K)**. 
+* **The March Euro-Asian Bottleneck:** The severe global Gross Profit drop seen in March (-$96K) was driven almost entirely by synchronized margin collapses across Europe and Asia. **Poland** represented the most severe localized drag with a **-$29.24K** profit contraction, followed closely by intensive margin erosion in **Germany (-$24.78K)**, **Portugal (-$24.65K)**, and **China (-$23.76K)**.
 * **The April Canadian Crater:** In April, the operational risk shifted entirely to our North American lane. Isolating **Canada** reveals that after a stable first quarter, its commercial performance suffered an immediate **-$39K drop in April alone**—responsible for nearly half of the entire global deficit for that month. This abrupt collapse points to an immediate need for an audit of localized logistics, unexpected freight expenditures, or bulk-account contract pricing in the Canadian corridor.
+    <p float="left">
+      <img src="images/least_performing_countries_march.png" width="45%" />
+      <img src="images/least_performing_countries_april.png" width="45%" />
+    </p>
+
 * **Macro YTD Drags:** Looking at the full-year macro trajectory without active monthly filters, **Canada** and **Germany** remain the primary corporate priority areas. Canada anchors the global bottom-performer list with a cumulative **-$41.59K Gross Profit deficit**, while Germany follows as the second largest structural drag at a net **-$25.51K**.
+
+  <img src="images/least_performing_countries_2024.png" width="50%" />
 
 ### 3. Account Portfolio Profitability & Structural Risks
 
@@ -210,6 +227,8 @@ The **Account Profitability Segmentation Matrix** exposes key structural realiti
 
 * **The High-Volume Whale Divergence:** The scatter plot reveals a critical strategic split among our highest-capacity buyers (those purchasing between 1.5K and 2.5K units). While three of these high-volume accounts operate as ideal "champions" well above the 50% margin mark, the visual flags a dangerous downside risk: multiple high-volume accounts drop below the **39.15%** corporate floor. Most notably, a massive operational outlier sinks down to **26% GP%**, proving that high physical distribution volume is actively masking severe margin erosion.
 * **The High-Margin Upsell Cluster:** Conversely, a dense, highly efficient cluster of accounts sits securely in the upper-left quadrant, bounded to the left of the dynamic baseline crosshair. These accounts order lower physical volumes (predominantly under 650 units) but boast exceptional, premium margin profiles tracking between **60% and 70% GP%**. This represents a clear, risk-free tactical runway for the commercial team to incentivize bulk ordering and scale transaction sizes within an already highly profitable client pool.
+
+  <img src="images/GP_vs_Quantity.png" width="60%" />
 
 ---
 
